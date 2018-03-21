@@ -6,6 +6,6 @@ class Anagram
   end
 
   def match(possible_anagrams)
-
+    @word.split("").sort == possible_anagrams.sort
   end
 end
